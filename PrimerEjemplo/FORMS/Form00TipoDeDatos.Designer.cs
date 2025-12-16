@@ -1,6 +1,6 @@
 ﻿namespace PrimerEjemplo
 {
-    partial class Form1
+    partial class Form00TipoDeDatos
     {
         /// <summary>
         ///  Required designer variable.
