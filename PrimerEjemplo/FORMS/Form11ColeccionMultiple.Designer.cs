@@ -74,6 +74,7 @@
             btnElimSeleccionados.TabIndex = 16;
             btnElimSeleccionados.Text = "Eliminar";
             btnElimSeleccionados.UseVisualStyleBackColor = false;
+            btnElimSeleccionados.Click += btnElimSeleccionados_Click;
             // 
             // btnBorrar
             // 
@@ -127,6 +128,7 @@
             btnVisualizar.TabIndex = 20;
             btnVisualizar.Text = "VISUALIZAR SELECCIONADOS";
             btnVisualizar.UseVisualStyleBackColor = true;
+            btnVisualizar.Click += btnVisualizar_Click;
             // 
             // Form11ColeccionMultiple
             // 

@@ -14,7 +14,7 @@ namespace PrimerEjemplo
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form10ColeccionGrafica());
+            Application.Run(new Form12_1TiendaProductos());
 
             //CAMBIAR EL FORM QUE ESTES USANDO
         }
