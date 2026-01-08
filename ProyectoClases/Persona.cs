@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Text;
 
 namespace ProyectoClases
@@ -12,7 +13,24 @@ namespace ProyectoClases
     
     public class Persona
     {
+        public Persona() { 
+        Debug.WriteLine("Constructor VACIO Persona ");
+        }
+
+        public Persona(string NOMBRE , string APELLIDO) { 
+            this.Nombre = NOMBRE;
+            this.Apellidos = APELLIDO;
+            Debug.WriteLine("Constructor CON PARAMETROS Persona ");
+        }
         #region PROPIEDADES
+        private string _DescripcionThis;
+        public string this[int indice]
+        {
+            get { return _DescripcionThis; }
+            set {Random random = new Random();
+                int dato = random.Next(1, 20);
+                _DescripcionThis = "Descripcion : " + dato; }
+        }
         public Direccion Domicilio { get; set; }
         public Direccion LugarVacaciones { get; set; }
 
