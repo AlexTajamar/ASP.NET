@@ -44,7 +44,7 @@ namespace NetCoreFundametos.FORMS
             //QUEREMOS SABER QUE BOTON SE HA PULSADO
             //SE HACE mediante EL PARAMETRO SENDER
             Button botonPulsado = (Button)sender;
-            botonPulsado.BackColor = Color.Aqua;
+            botonPulsado.BackColor = Color.Aqua; 
         }
 
 
