@@ -13,9 +13,9 @@ namespace ProyectoClases
             this.Salario += 200;
             
         }
-        public int GetDiasVacaciones()
+        public override int GetDiasVacaciones()
         {
-            return 30;
+            return base.GetDiasVacaciones()+8;
         }
     }
 }

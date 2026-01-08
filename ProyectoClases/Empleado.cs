@@ -13,7 +13,7 @@ namespace ProyectoClases
             Debug.WriteLine("cONSTRUCTOR EMPLEADO vacio");
             this.Salario = 1600;
         }
-        public int GetDiasVacaciones()
+        public virtual int GetDiasVacaciones()
         {
             return 22;
         }
